@@ -1,7 +1,7 @@
 # Genetic-Algorithm
  Implementations of Genetic Algorithms in Artificial Intelligence for efficient optimization and problem-solving tasks. 
 
-#Soal:
+# Soal:
 
 Buatlah sebuah program untuk mencari solusi dari **Graph Coloring Problem**!
 	Penjelasan tentang Graph Coloring Problem:
