@@ -1,42 +1,41 @@
 # Genetic-Algorithm
-Implementations of Genetic Algorithms in Artificial Intelligence for efficient optimization and problem-solving tasks. 
+Implementations of Genetic Algorithms in Artificial Intelligence for efficient optimization and problem-solving tasks.
 
-# Soal:
+# Question:
 
-## Buatlah sebuah program untuk mencari solusi dari **Graph Coloring Problem**!
-Penjelasan tentang Graph Coloring Problem:
-- Input dari problem ini adalah sebuah Undirected, Unweighted Graph
-- Tujuan yang ingin dicapai dalam problem ini adalah untuk memberi “warna” terhadap semua vertex dalam graph, dengan ketentuan:
-  - Setiap pasangan vertex yang adjacent tidak diwarnai dengan warna yang sama
-  - Total jumlah warna yang digunakan sesedikit mungkin
-- Referensi: https://en.wikipedia.org/wiki/Graph_coloring
+## Write a program to find a solution to the **Graph Coloring Problem**!
+Explanation of Graph Coloring Problem:
+- The input to this problem is an Undirected, Unweighted Graph
+- The goal to be achieved in this problem is to give "color" to all vertices in the graph, with the following conditions:
+ - Each pair of adjacent vertices is not colored with the same color
+ - The total number of colors used is as little as possible
+- Reference: https://en.wikipedia.org/wiki/Graph_coloring
 
-## Input program:
-- Input yang diterima program adalah sebuah text file
-- Isi dari text file input adalah **Adjacency List** dengan detail sebagai berikut:
-  - Baris pertama berisi 2 angka **V** dan **E**, di mana **V** adalah jumlah vertex pada graph dan **E** adalah jumlah edge pada graph
-  - **E** baris berikutnya masing-masing berisi 2 angka **vx** dan **vy**, di mana tiap baris melambangkan sebuah edge antara vertex **vx** dan vertex **vy**
-  - **vx** dan **vy** (nama vertex) berada pada range antara 0 sampai **V** - 1
-- Contoh text file input:
+## Program input:
+- The input the program receives is a text file
+- The contents of the input text file are **Adjacency List** with the following details:
+ - The first row contains 2 numbers **V** and **E**, where **V** is the number of vertices in the graph and **E** is the number of edges in the graph
+ - **E** the next row each contains 2 numbers **vx** and **vy**, where each row represents an edge between vertex **vx** and vertex **vy**
+ - **vx** and **vy** (vertex names) are in the range between 0 to **V** - 1
+- Example of input text file:
 ![Input](https://github.com/ezrabrilliant/Genetic-Algorithm/blob/main/image/example_input.png)
 
-## Output program:
-- Output dari program berupa text file
-- Isi dari text file output adalah sebagai berikut:
-  - Baris pertama berisi 1 angka **X** yaitu jumlah warna yang digunakan untuk mewarnai graph input
-  - Baris kedua berisi **V** angka **v0 v1 ... vV-1**, di mana sebuah angka **vi** melambangkan warna yang digunakan untuk mewarnai vertex ke-**i**
-  - **vi** (warna) berada pada range antara 0 sampai **X** - 1
-- Contoh text file output (dari input di atas):
+## Program output:
+- The output of the program is in the form of a text file
+- The contents of the output text file are as follows:
+ - The first row contains 1 number **X**, namely the number of colors used to color the input graph
+ - The second row contains **V** numbers **v0 v1 ... vV-1**, where a number **vi** represents the color used to color the **i**th vertex
+ - **vi** (color) is in the range between 0 to **X** - 1
+- Example of output text file (from the input above):
 ![Input](https://github.com/ezrabrilliant/Genetic-Algorithm/blob/main/image/example_output.png)
 
-## Artinya:
-- Jumlah warna yang digunakan: 2
-- Vertex 0, 2, dan 3 diwarnai dengan warna “0”
-- Vertex 1 diwarnai dengan warna “1”
-- Nama text file output: “out_” + [nama text file input]
-Misal untuk input file “gc_4_1”, output file diberi nama “out_gc_4_1”
+## It means:
+- Number of colors used: 2
+- Vertices 0, 2, and 3 are colored with the color "0"
+- Vertex 1 is colored with the color “1”
+- Output text file name: “out_” + [input text file name]
+For example, for the input file "gc_4_1", the output file is named "out_gc_4_1"
 
-## Keterangan tentang program yang dibuat:
-- Bahasa pemrograman: Bebas **(kelompok kami menggunakan C++)**
-- Metode yang disarankan: **Genetic Algorithm, Local Search**
-
+## Description of the program created:
+- Programming language: Free **(our group uses C++)**
+- Recommended method: **Genetic Algorithm, Local Search**
