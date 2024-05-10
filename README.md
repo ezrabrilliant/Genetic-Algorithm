@@ -3,7 +3,7 @@
 
 # Soal:
 
-Buatlah sebuah program untuk mencari solusi dari **Graph Coloring Problem**!
+## Buatlah sebuah program untuk mencari solusi dari **Graph Coloring Problem**!
 	Penjelasan tentang Graph Coloring Problem:
 		- Input dari problem ini adalah sebuah Undirected, Unweighted Graph
 		- Tujuan yang ingin dicapai dalam problem ini adalah untuk memberi “warna” terhadap semua vertex dalam graph, dengan ketentuan:
@@ -11,7 +11,7 @@ Buatlah sebuah program untuk mencari solusi dari **Graph Coloring Problem**!
 			~ Total jumlah warna yang digunakan sesedikit mungkin
 		- Referensi: https://en.wikipedia.org/wiki/Graph_coloring
 
-Input program:
+## Input program:
 	- Input yang diterima program adalah sebuah text file
 	- Isi dari text file input adalah **Adjacency List** dengan detail sebagai berikut:
 		~ Baris pertama berisi 2 angka **V** dan **E**, di mana **V** adalah jumlah vertex pada graph dan **E** adalah jumlah edge pada graph
@@ -20,7 +20,7 @@ Input program:
 	- Contoh text file input:
 	![Input](https://github.com/ezrabrilliant/Genetic-Algorithm/blob/main/image/example_input.png)
 
-Output program:
+## Output program:
 	- Output dari program berupa text file
 	- Isi dari text file output adalah sebagai berikut:
 		~ Baris pertama berisi 1 angka **X** yaitu jumlah warna yang digunakan untuk mewarnai graph input
@@ -29,14 +29,14 @@ Output program:
 	- Contoh text file output (dari input di atas):
 	![Input](https://github.com/ezrabrilliant/Genetic-Algorithm/blob/main/image/example_output.png)
 
-Artinya:
+## Artinya:
 	- Jumlah warna yang digunakan: 2
 	- Vertex 0, 2, dan 3 diwarnai dengan warna “0”
 	- Vertex 1 diwarnai dengan warna “1”
 	- Nama text file output: “out_” + [nama text file input]
 				Misal untuk input file “gc_4_1”, output file diberi nama “out_gc_4_1”
 
-Keterangan tentang program yang dibuat:
+## Keterangan tentang program yang dibuat:
 	- Bahasa pemrograman: Bebas **(kelompok kami menggunakan C++)**
 	- Metode yang disarankan: **Genetic Algorithm, Local Search**
 
